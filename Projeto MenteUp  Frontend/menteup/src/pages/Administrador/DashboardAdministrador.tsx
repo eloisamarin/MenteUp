@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-function DashboardAluno() {
+function DashboardAdministrador() {
 
     const navigate = useNavigate();
 
@@ -12,7 +12,7 @@ function DashboardAluno() {
             <p>Gerenciamento de atividades.</p>
 
             <button
-                onClick={() => navigate("/aluno/atividades")}
+                onClick={() => navigate("/administrador/atividades")}
             >
                 Ver atividades
             </button>
@@ -21,4 +21,4 @@ function DashboardAluno() {
     );
 }
 
-export default DashboardAluno;
+export default DashboardAdministrador;
